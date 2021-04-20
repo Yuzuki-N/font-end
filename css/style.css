@@ -26,6 +26,38 @@ a {
     width: 1400px;
     min-width: 1400px;
     height: 30px;
-    background: red;
+    
     margin: 0 auto;
+}
+
+.navBar .logo {
+    width: 34;
+    height: 31;
+    float: left;
+}
+
+.logo img {
+    margin-top: 5px;
+}
+
+.navBar nav {
+    float: right;
+
+}
+
+.navBar nav ul li {
+    float: left;
+}
+
+.navBar nav a {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    color: #fff;
+}
+
+
+.navBar nav a:hover {
+    background: ;
 }
