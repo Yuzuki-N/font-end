@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapperBox {
+   width: 100%; 
+}
+
+.navBox {
+    width: 100%;
+    height: 40px;
+    background-color: #00848A;
+}
+
+
+.navBar {
+    width: 1400px;
+    min-width: 1400px;
+    height: 30px;
+    background: red;
+    margin: 0 auto;
+}
