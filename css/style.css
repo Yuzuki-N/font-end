@@ -150,6 +150,10 @@ input {
     margin: 30px auto;
 }
 
+.oddsBox .title {
+    height: 40px;
+}
+
 .oddsBox .title p {
     background: #00848A;
     line-height: 40px;
@@ -174,4 +178,46 @@ input {
     font-style: normal;
     padding: 0 5px;
     display: inline-block;
+}
+
+.content {
+    clear: left;
+    height: 760px;
+    padding-top: 40px;
+}
+
+.content .list .list_nav {
+    display: inline-block;
+    width: 100px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 0 #ccc;
+    box-sizing: border-box;
+    margin-right: 80px;
+}
+.content .list .list_nav:last-child {
+    margin-right: 0;
+}
+
+.content .list .current_option {
+    background: #00848A;
+    color: #fff;
+}
+
+.productBox {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.infoBox {
+    width: 340px;
+    float: left;
+    margin: 20px 13px 0 0;
+}
+
+.infoBox:nth-child(4) {
+    margin-right: 0;
 }
