@@ -16,6 +16,11 @@ a {
     text-decoration: none;
 }
 
+input {
+    outline: none;
+    border: none;
+}
+
 .wrapperBox {
    width: 100%; 
 }
@@ -110,4 +115,63 @@ a {
 
 .bannerBox .dots > span.square {
     background-color: #00848A;
+}
+
+.searchBox {
+    width: 975px;
+    height: 68px;
+    margin: 0 auto;
+    background: #fff;
+    position: relative;
+    margin-top: -30px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0 #ccc;
+}
+
+.searchBox form input {
+    width: 907px;
+    height: 68px;
+    float: left;
+    text-indent: 20px;
+    border-radius: 5px;
+}
+
+/* 选择type为submit的元素 */
+.searchBox form input[type="submit"] {
+    width: 68px;
+    height: 68px;
+    background: #0f0;
+    background:url(../img/icon/searchicon.png) no-repeat center;
+    display: inline-block;
+}
+
+.oddsBox {
+    width: 1400px;
+    margin: 30px auto;
+}
+
+.oddsBox .title p {
+    background: #00848A;
+    line-height: 40px;
+    height: 40px;
+    color: #fff;
+    font-size: 22px;
+    width: 200px;
+    text-align: center;
+    float: left;
+}
+
+.oddsBox .title span {
+    font-size: 22px;
+    /* display: inline-block; */
+    height: 40p;
+    line-height: 40px;
+    padding-left: 10px;
+    float: left;
+    color: #00848A;
+}
+.oddsBox .title span i {
+    font-style: normal;
+    padding: 0 5px;
+    display: inline-block;
 }
